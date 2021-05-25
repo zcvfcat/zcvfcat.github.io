@@ -1,0 +1,21 @@
+header {
+  background: linear-gradient(100deg, #008282, #005682, #000056, #2b0057, #6a006a);
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgb(0 38 55 / 16%);
+  height: 320px;
+  color: #fff;
+  padding: 0 60px;
+}
+
+nav {
+}
+
+section {
+}
+
+aside {
+}
+
+footer {
+}

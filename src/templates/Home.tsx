@@ -1,5 +1,5 @@
-import { Header, Nav, Section, Aside, Footer } from 'layouts/Common'
-export const Main = () => {
+import { Header, Nav, Section, Aside, Footer } from 'layouts/Common';
+export const Home = () => {
   return (
     <>
       <Header></Header>
@@ -8,5 +8,5 @@ export const Main = () => {
       <Aside></Aside>
       <Footer></Footer>
     </>
-  )
-}
+  );
+};

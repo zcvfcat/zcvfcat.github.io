@@ -1,3 +1,5 @@
-export const Title = () => {
-  return <div>123</div>
-}
+import React from 'react';
+
+export const Title = ({ children }: { children?: React.ReactNode }) => {
+  return <div>{children}</div>;
+};
