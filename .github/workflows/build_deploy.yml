@@ -2,21 +2,15 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [12.x, 14.x, 16.x]
     steps:
-      - uses: actions/checkout@v2
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2
+      - name: Checkout
+        uses: actions/checkout@v2.3.1
         with:
-          cache: 'npm'
-          node-version: ${{ matrix.node-version }}
           persist-credentials: false
 
       - name: Install and Build
@@ -32,7 +26,7 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages # 배포될 브랜치
           FOLDER: out # 이 폴더에 있는 파일을 배포
           CLEAN: true # 배포 브랜치에 있는 파일들을 자동으로 삭제
