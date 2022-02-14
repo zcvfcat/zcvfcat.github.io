@@ -1,7 +1,9 @@
-import type { NextPage } from 'next'
+import Home from 'templates/Home'
 
-const Main: NextPage = () => {
-  return <div>테스트입니다.</div>
+export default function Main() {
+  return (
+    <div>
+      <Home />
+    </div>
+  )
 }
-
-export default Main
