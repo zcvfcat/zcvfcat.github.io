@@ -9,6 +9,9 @@
     "export": "next export"
   },
   "dependencies": {
+    "@apollo/client": "^3.5.9",
+    "apollo-server-micro": "^3.6.3",
+    "graphql": "^16.3.0",
     "next": "12.0.10",
     "next-optimized-images": "^2.6.2",
     "next-pwa": "^5.4.4",
