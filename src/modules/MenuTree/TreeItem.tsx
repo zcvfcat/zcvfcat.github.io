@@ -1,3 +1,10 @@
-export default function TreeItem({ children }: { children: any }) {
-  return <li>{children}</li>
+import TreeItemProps from './types/TreeItem'
+
+export default function TreeItem({ title, children }: TreeItemProps) {
+  return (
+    <li>
+      <h1>{title}</h1>
+      {children}
+    </li>
+  )
 }
