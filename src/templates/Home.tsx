@@ -3,7 +3,7 @@ import MenuTree from 'modules/MenuTree'
 export default function Home() {
   return (
     <div className="container mx-auto max-w-screen-xl">
-      <header></header>
+      <header>흐미....</header>
       <main>
         <nav>
           <MenuTree />

@@ -42,7 +42,7 @@ export default class MyDocument extends Document {
             }}
           />
         </Head>
-        <body className="font-sans antialiased w-full">
+        <body className="font-sans w-full antialiased text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-900">
           <Main />
           <NextScript />
         </body>
