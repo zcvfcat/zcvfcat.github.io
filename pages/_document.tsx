@@ -1,48 +1,30 @@
-import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/document'
+import Document, { Html, Head, Main, NextScript } from 'next/document'
 
-const GA_TRACKING_ID = 'G-VP1K3RXPKE'
-export default class MyDocument extends Document {
-  static async getInitialProps(ctx: DocumentContext) {
-    const initialProps = await Document.getInitialProps(ctx)
-    return { ...initialProps }
-  }
-
+class MyDocument extends Document {
   render() {
     return (
-      <Html lang="ko">
+      <Html lang="en" className="scroll-smooth">
         <Head>
-          <meta charSet="utf-8" />
-          <meta httpEquiv="Cache-Control" content="max-age: 0, no-cache, no-store, must-revalidate" />
-          <meta httpEquiv="Pragma" content="no-cache" />
-          <meta httpEquiv="Expires" content="-1" />
-
-          <link rel="manifest" href="/manifest/manifest.json" />
-          <link rel="apple-touch-icon" href="/manifest/icon.png"></link>
-          <meta name="theme-color" content="#fff" />
-
-          <meta name="description" content="김대현 개발자의 블로그" />
-          <meta property="og:title" content="개발자 블로그" />
-          <meta property="og:url" content="https://zcvfcat.github.io" />
-          <meta property="og:type" content="website" />
-          <meta property="og:image" content="/favicon.ico" />
-          <meta property="og:description" content="김대현 개발자의 블로그" />
-
-          <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', '${GA_TRACKING_ID}', {
-              page_path: window.location.pathname,
-            });
-          `,
-            }}
+          <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-touch-icon.png" />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/static/favicons/favicon-32x32.png"
           />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/static/favicons/favicon-16x16.png"
+          />
+          <link rel="manifest" href="/static/favicons/site.webmanifest" />
+          <link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg" color="#5bbad5" />
+          <meta name="msapplication-TileColor" content="#000000" />
+          <meta name="theme-color" content="#000000" />
+          <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
         </Head>
-        <body className="font-sans w-full antialiased text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-900">
+        <body className="bg-white text-black antialiased dark:bg-gray-900 dark:text-white">
           <Main />
           <NextScript />
         </body>
@@ -50,3 +32,5 @@ export default class MyDocument extends Document {
     )
   }
 }
+
+export default MyDocument
