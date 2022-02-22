@@ -1,3 +1,5 @@
+//완료
+
 import Image from './Image'
 import Link from './Link'
 

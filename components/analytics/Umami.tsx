@@ -1,3 +1,4 @@
+//완료
 import Script from 'next/script'
 
 import siteMetadata from '@/data/siteMetadata'

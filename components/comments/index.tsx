@@ -1,3 +1,5 @@
+//완료
+
 import siteMetadata from '@/data/siteMetadata'
 import dynamic from 'next/dynamic'
 import { PostFrontMatter } from 'types/PostFrontMatter'
