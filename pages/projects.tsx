@@ -1,5 +1,5 @@
 import siteMetadata from '@/data/siteMetadata'
-import projectsData from '@/data/projectsData'
+import projectsData from '@/data/projectsData.json'
 import Card from 'components/molecules/Card'
 import { PageSEO } from 'components/molecules/SEO'
 

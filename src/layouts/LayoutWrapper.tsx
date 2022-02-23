@@ -1,5 +1,5 @@
 import siteMetadata from '@/data/siteMetadata'
-import headerNavLinks from '@/data/headerNavLinks'
+import headerNavLinks from '@/data/headerNavLinks.json'
 import Logo from '@/data/logo.svg'
 import Link from 'components/atoms/Link'
 import SectionContainer from 'components/molecules/SectionContainer'
