@@ -3,7 +3,7 @@
     "incremental": true,
     "target": "ES6",
     "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
+    "allowJs": false,
     "skipLibCheck": true,
     "strict": false,
     "forceConsistentCasingInFileNames": true,
@@ -16,11 +16,10 @@
     "jsx": "preserve",
     "baseUrl": "./src",
     "paths": {
-      "@/components/*": ["../components/*"],
       "@/data/*": ["../data/*"],
-      "@/layouts/*": ["../layouts/*"],
       "@/lib/*": ["../lib/*"],
-      "@/css/*": ["../css/*"]
+      "@/css/*": ["../css/*"],
+      "@/assets/*": ["../assets/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

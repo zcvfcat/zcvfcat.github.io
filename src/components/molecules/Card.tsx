@@ -1,5 +1,5 @@
-import Image from 'components/Image'
-import Link from 'components/Link'
+import Image from 'components/atoms/Image'
+import Link from 'components/atoms/Link'
 
 const Card = ({ title, description, imgSrc, href }) => (
   <div className="md p-4 md:w-1/2" style={{ maxWidth: '544px' }}>

@@ -1,12 +1,11 @@
-//완료
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
 import Logo from '@/data/logo.svg'
-import Link from './Link'
-import SectionContainer from './SectionContainer'
-import Footer from './Footer'
-import MobileNav from './MobileNav'
-import ThemeSwitch from './ThemeSwitch'
+import Link from 'components/atoms/Link'
+import SectionContainer from 'components/molecules/SectionContainer'
+import Footer from 'components/organisms/Footer'
+import MobileNav from 'components/molecules/MobileNav'
+import ThemeSwitch from 'components/molecules/ThemeSwitch'
 import { ReactNode } from 'react'
 
 interface Props {

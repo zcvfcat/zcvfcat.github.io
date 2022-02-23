@@ -1,9 +1,9 @@
-import Link from '@/components/Link'
-import { PageSEO } from '@/components/SEO'
-import Tag from '@/components/Tag'
+import Link from 'components/atoms/Link'
+import { PageSEO } from 'components/molecules/SEO'
+import Tag from 'components/atoms/Tag'
 import siteMetadata from '@/data/siteMetadata'
-import { getAllTags } from '@/lib/tags'
-import kebabCase from '@/lib/utils/kebabCase'
+import { getAllTags } from 'lib/tags'
+import kebabCase from 'lib/utils/kebabCase'
 import { GetStaticProps, InferGetStaticPropsType } from 'next'
 
 export const getStaticProps: GetStaticProps<{ tags: Record<string, number> }> = async () => {

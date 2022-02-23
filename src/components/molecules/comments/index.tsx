@@ -8,19 +8,19 @@ interface Props {
 
 const UtterancesComponent = dynamic(
   () => {
-    return import('@/components/comments/Utterances')
+    return import('components/molecules/comments/Utterances')
   },
   { ssr: false }
 )
 const GiscusComponent = dynamic(
   () => {
-    return import('@/components/comments/Giscus')
+    return import('components/molecules/comments/Giscus')
   },
   { ssr: false }
 )
 const DisqusComponent = dynamic(
   () => {
-    return import('@/components/comments/Disqus')
+    return import('components/molecules/comments/Disqus')
   },
   { ssr: false }
 )
