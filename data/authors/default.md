@@ -4,7 +4,7 @@ avatar: /static/images/avatar.png
 occupation: Professor of Atmospheric Science
 company: Stanford University
 email: address@yoursite.com
-twitter: https://twitter.com/Twitter
+twitter: https://twitter.com/gh6hW2eSCdJqwQ3
 linkedin: https://www.linkedin.com
 github: https://github.com
 ---
