@@ -1,7 +1,7 @@
 import { PageSEO } from 'components/molecules/SEO'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from 'lib/mdx'
-import ListLayout from 'layouts/ListLayout'
+import ListLayout from 'templates/ListLayout'
 import { POSTS_PER_PAGE } from '../../blog'
 import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from 'next'
 import { PostFrontMatter } from 'types/PostFrontMatter'

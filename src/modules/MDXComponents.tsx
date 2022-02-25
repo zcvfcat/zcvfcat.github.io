@@ -7,16 +7,11 @@ import CustomLink from 'components/atoms/Link'
 import Pre from 'components/atoms/Pre'
 
 import TOCInline from 'components/molecules/TOCInline'
-import path from 'path'
 
 import { BlogNewsletterForm } from 'components/molecules/NewsletterForm'
 
 const Wrapper: React.ComponentType<{ layout: string }> = ({ layout, ...rest }) => {
-  // const Layout = await import(`../layouts/${layout}`)
-  // return <Layout {...rest} />
-  console.log(path.resolve(`layouts/${layout}`))
-  const Layout = require(`layouts/${layout}`).default
-
+  const Layout = require(`templates/${layout}`).default
   return <Layout {...rest} />
 }
 
