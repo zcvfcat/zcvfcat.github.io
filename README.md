@@ -48,3 +48,9 @@
 - 정적 서버 만들때 분리 가능
 - 서버 부하 방지
 - github img 서버 만듬
+
+## 기본 사이트 이미지 변경
+
+> [png2icojs](https://png2icojs.com/kr)
+
+- 메니페스트
