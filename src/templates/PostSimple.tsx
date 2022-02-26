@@ -8,15 +8,18 @@ import Comments from 'components/molecules/comments'
 import ScrollTopAndComment from 'components/molecules/ScrollTopAndComment'
 import { ReactNode } from 'react'
 import { PostFrontMatter } from 'types/PostFrontMatter'
+import { Toc } from 'types/Toc'
+import TOCFix from 'components/molecules/TOCFix'
 
 interface Props {
   frontMatter: PostFrontMatter
   children: ReactNode
   next?: { slug: string; title: string }
   prev?: { slug: string; title: string }
+  toc?: Toc
 }
 
-export default function PostLayout({ frontMatter, next, prev, children }: Props) {
+export default function PostLayout({ frontMatter, next, prev, children, toc }: Props) {
   const { slug, date, title } = frontMatter
 
   return (
@@ -24,6 +27,7 @@ export default function PostLayout({ frontMatter, next, prev, children }: Props)
       <BlogSEO url={`${siteMetadata.siteUrl}/blog/${slug}`} {...frontMatter} />
       <ScrollTopAndComment />
       <article>
+        {toc && <TOCFix toc={toc} />}
         <div>
           <header>
             <div className="space-y-1 border-b border-gray-200 pb-10 text-center dark:border-gray-700">

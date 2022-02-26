@@ -12,6 +12,7 @@ import { BlogNewsletterForm } from 'components/molecules/NewsletterForm'
 
 const Wrapper: React.ComponentType<{ layout: string }> = ({ layout, ...rest }) => {
   const Layout = require(`templates/${layout}`).default
+
   return <Layout {...rest} />
 }
 
@@ -34,6 +35,9 @@ interface Props {
 
 export const MDXLayoutRenderer = ({ layout, mdxSource, ...rest }: Props) => {
   const MDXLayout = useMemo(() => getMDXComponent(mdxSource), [mdxSource])
-
-  return <MDXLayout layout={layout} components={MDXComponents} {...rest} />
+  return (
+    <>
+      <MDXLayout layout={layout} components={MDXComponents} {...rest} />
+    </>
+  )
 }

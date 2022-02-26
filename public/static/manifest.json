@@ -3,7 +3,7 @@
   "background_color": "#000000",
   "display": "standalone",
   "scope": "/",
-  "start_url": "/",
+  "start_url": "./",
   "name": "code store",
   "short_name": "zcs",
   "description": "zcvfcat code store",
