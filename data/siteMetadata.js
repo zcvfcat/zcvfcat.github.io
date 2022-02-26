@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'ZCVFCAT CODE STORE',
   author: 'DAEHYUN KIM',
   headerTitle: 'ZCVFCAT CODE STORE',
-  description: 'A blog created with Next.js and Tailwind.css',
+  description: '김대현 개발자의 코드 저장소',
   language: 'ko',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
@@ -10,13 +10,13 @@ const siteMetadata = {
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
+  email: 'zcvfcat@gmail.com',
+  github: 'https://github.com/zcvfcat',
   twitter: 'https://twitter.com/gh6hW2eSCdJqwQ3',
   facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
-  locale: 'en-US',
+  youtube: 'https://www.youtube.com/channel/UC6YQr31-Nf0EoT8difDOHHg',
+  linkedin: 'https://www.linkedin.com/in/daehyun-kim-991892230',
+  locale: 'ko',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
