@@ -1,56 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/about</loc>
+    <loc>https://zcvfcat.github.io/about</loc>
   </url>
 
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/blog</loc>
+    <loc>https://zcvfcat.github.io/blog</loc>
   </url>
 
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app</loc>
+    <loc>https://zcvfcat.github.io</loc>
   </url>
 
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/projects</loc>
+    <loc>https://zcvfcat.github.io/projects</loc>
   </url>
 
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/tags</loc>
+    <loc>https://zcvfcat.github.io/tags</loc>
   </url>
 
   <url>
-    <loc
-      >https://tailwind-nextjs-starter-blog.vercel.app/blog/design-pattern/creational/abstract-factory</loc
-    >
+    <loc>https://zcvfcat.github.io/blog/design-pattern/creational/abstract-factory</loc>
   </url>
 
   <url>
-    <loc
-      >https://tailwind-nextjs-starter-blog.vercel.app/blog/design-pattern/creational/builder</loc
-    >
+    <loc>https://zcvfcat.github.io/blog/design-pattern/creational/builder</loc>
   </url>
 
   <url>
-    <loc
-      >https://tailwind-nextjs-starter-blog.vercel.app/blog/design-pattern/creational/factory-method</loc
-    >
+    <loc>https://zcvfcat.github.io/blog/design-pattern/creational/factory-method</loc>
   </url>
 
   <url>
-    <loc
-      >https://tailwind-nextjs-starter-blog.vercel.app/blog/design-pattern/creational/prototype</loc
-    >
+    <loc>https://zcvfcat.github.io/blog/design-pattern/creational/prototype</loc>
   </url>
 
   <url>
-    <loc
-      >https://tailwind-nextjs-starter-blog.vercel.app/blog/design-pattern/creational/singleton</loc
-    >
+    <loc>https://zcvfcat.github.io/blog/design-pattern/creational/singleton</loc>
   </url>
 
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/tags/design-patterns</loc>
+    <loc>https://zcvfcat.github.io/tags/design-patterns</loc>
   </url>
 </urlset>
