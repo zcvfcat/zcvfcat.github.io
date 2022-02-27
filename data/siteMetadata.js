@@ -5,8 +5,8 @@ const siteMetadata = {
   description: '김대현 개발자의 코드 저장소',
   language: 'ko',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://zcvfcat.github.io',
+  siteRepo: 'https://github.com/zcvfcat/zcvfcat.github.io',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
