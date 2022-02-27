@@ -1,0 +1,56 @@
+{
+  "path": "/Users/zcvfcat/workspace/blog/data/blog",
+  "name": "blog",
+  "children": [
+    {
+      "path": "/Users/zcvfcat/workspace/blog/data/blog/algorithm",
+      "name": "algorithm",
+      "children": [
+        {
+          "path": "/Users/zcvfcat/workspace/blog/data/blog/algorithm/dp",
+          "name": "dp",
+          "children": []
+        },
+        {
+          "path": "/Users/zcvfcat/workspace/blog/data/blog/algorithm/hash",
+          "name": "hash",
+          "children": []
+        }
+      ]
+    },
+    { "path": "/Users/zcvfcat/workspace/blog/data/blog/cs", "name": "cs", "children": [] },
+    {
+      "path": "/Users/zcvfcat/workspace/blog/data/blog/design-pattern",
+      "name": "design-pattern",
+      "children": [
+        {
+          "path": "/Users/zcvfcat/workspace/blog/data/blog/design-pattern/creational",
+          "name": "creational",
+          "children": [
+            {
+              "path": "/Users/zcvfcat/workspace/blog/data/blog/design-pattern/creational/abstract-factory.mdx",
+              "name": "abstract-factory.mdx"
+            },
+            {
+              "path": "/Users/zcvfcat/workspace/blog/data/blog/design-pattern/creational/builder.mdx",
+              "name": "builder.mdx"
+            },
+            {
+              "path": "/Users/zcvfcat/workspace/blog/data/blog/design-pattern/creational/factory-method.mdx",
+              "name": "factory-method.mdx"
+            },
+            {
+              "path": "/Users/zcvfcat/workspace/blog/data/blog/design-pattern/creational/prototype.mdx",
+              "name": "prototype.mdx"
+            },
+            {
+              "path": "/Users/zcvfcat/workspace/blog/data/blog/design-pattern/creational/singleton.mdx",
+              "name": "singleton.mdx"
+            }
+          ]
+        }
+      ]
+    },
+    { "path": "/Users/zcvfcat/workspace/blog/data/blog/web", "name": "web", "children": [] }
+  ]
+}

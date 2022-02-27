@@ -1,5 +1,6 @@
 export default interface TreeItemProps {
-  title: string
+  path: string
+  name: string
   children?: React.ReactNode
   isSubShow?: boolean
   handleClick?: () => void

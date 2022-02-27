@@ -10,6 +10,8 @@ import { ReactNode } from 'react'
 import { PostFrontMatter } from 'types/PostFrontMatter'
 import { Toc } from 'types/Toc'
 import TOCFix from 'components/molecules/TOCFix'
+import menu from '@/assets/menutree.json'
+import MenuTree from 'modules/MenuTree'
 
 interface Props {
   frontMatter: PostFrontMatter
@@ -27,6 +29,7 @@ export default function PostLayout({ frontMatter, next, prev, children, toc }: P
       <BlogSEO url={`${siteMetadata.siteUrl}/blog/${slug}`} {...frontMatter} />
       <ScrollTopAndComment />
       <article>
+        <MenuTree menu={menu} />
         {toc && <TOCFix toc={toc} />}
         <div>
           <header>

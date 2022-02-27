@@ -1,5 +1,6 @@
 export default interface File {
-  title: string
+  path: string
+  name: string
   createdAt?: string
   children?: File[]
 }

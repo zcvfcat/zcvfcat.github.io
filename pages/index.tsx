@@ -6,7 +6,6 @@ import { getAllFilesFrontMatter } from 'lib/mdx'
 import formatDate from 'lib/utils/formatDate'
 import { GetStaticProps, InferGetStaticPropsType } from 'next'
 import { PostFrontMatter } from 'types/PostFrontMatter'
-import NewsletterForm from 'components/molecules/NewsletterForm'
 
 const MAX_DISPLAY = 5
 
