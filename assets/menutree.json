@@ -1,56 +1,55 @@
 {
-  "path": "/Users/zcvfcat/workspace/blog/data/blog",
+  "path": "data/blog",
   "name": "blog",
   "children": [
     {
-      "path": "/Users/zcvfcat/workspace/blog/data/blog/algorithm",
+      "path": "data/blog/algorithm",
       "name": "algorithm",
       "children": [
-        {
-          "path": "/Users/zcvfcat/workspace/blog/data/blog/algorithm/dp",
-          "name": "dp",
-          "children": []
-        },
-        {
-          "path": "/Users/zcvfcat/workspace/blog/data/blog/algorithm/hash",
-          "name": "hash",
-          "children": []
-        }
+        { "path": "data/blog/algorithm/dp", "name": "dp", "children": [] },
+        { "path": "data/blog/algorithm/hash", "name": "hash", "children": [] }
       ]
     },
-    { "path": "/Users/zcvfcat/workspace/blog/data/blog/cs", "name": "cs", "children": [] },
+    { "path": "data/blog/cs", "name": "cs", "children": [] },
+    { "path": "data/blog/web", "name": "web", "children": [] },
     {
-      "path": "/Users/zcvfcat/workspace/blog/data/blog/design-pattern",
-      "name": "design-pattern",
+      "path": "data/blog/디자인패턴",
+      "name": "디자인패턴",
       "children": [
+        { "path": "data/blog/디자인패턴/구조패턴", "name": "구조패턴", "children": [] },
         {
-          "path": "/Users/zcvfcat/workspace/blog/data/blog/design-pattern/creational",
-          "name": "creational",
+          "path": "data/blog/디자인패턴/생성패턴",
+          "name": "생성패턴",
           "children": [
             {
-              "path": "/Users/zcvfcat/workspace/blog/data/blog/design-pattern/creational/abstract-factory.mdx",
-              "name": "abstract-factory.mdx"
+              "path": "data/blog/디자인패턴/생성패턴/abstract-factory.mdx",
+              "name": "abstract-factory.mdx",
+              "extension": ".mdx"
             },
             {
-              "path": "/Users/zcvfcat/workspace/blog/data/blog/design-pattern/creational/builder.mdx",
-              "name": "builder.mdx"
+              "path": "data/blog/디자인패턴/생성패턴/builder.mdx",
+              "name": "builder.mdx",
+              "extension": ".mdx"
             },
             {
-              "path": "/Users/zcvfcat/workspace/blog/data/blog/design-pattern/creational/factory-method.mdx",
-              "name": "factory-method.mdx"
+              "path": "data/blog/디자인패턴/생성패턴/factory-method.mdx",
+              "name": "factory-method.mdx",
+              "extension": ".mdx"
             },
             {
-              "path": "/Users/zcvfcat/workspace/blog/data/blog/design-pattern/creational/prototype.mdx",
-              "name": "prototype.mdx"
+              "path": "data/blog/디자인패턴/생성패턴/prototype.mdx",
+              "name": "prototype.mdx",
+              "extension": ".mdx"
             },
             {
-              "path": "/Users/zcvfcat/workspace/blog/data/blog/design-pattern/creational/singleton.mdx",
-              "name": "singleton.mdx"
+              "path": "data/blog/디자인패턴/생성패턴/singleton.mdx",
+              "name": "singleton.mdx",
+              "extension": ".mdx"
             }
           ]
-        }
+        },
+        { "path": "data/blog/디자인패턴/행위패턴", "name": "행위패턴", "children": [] }
       ]
-    },
-    { "path": "/Users/zcvfcat/workspace/blog/data/blog/web", "name": "web", "children": [] }
+    }
   ]
 }

@@ -13,6 +13,9 @@ import Analytics from 'components/molecules/analytics'
 import LayoutWrapper from 'layouts/LayoutWrapper'
 import { ClientReload } from 'modules/ClientReload'
 
+import menu from '@/assets/menutree.json'
+import MenuTree from 'modules/MenuTree'
+
 const isDevelopment = process.env.NODE_ENV === 'development'
 const isSocket = process.env.SOCKET
 
@@ -25,6 +28,7 @@ export default function App({ Component, pageProps }: AppProps) {
       {isDevelopment && isSocket && <ClientReload />}
       <Analytics />
       <LayoutWrapper>
+        <MenuTree menu={menu} />
         <Component {...pageProps} />
       </LayoutWrapper>
     </ThemeProvider>

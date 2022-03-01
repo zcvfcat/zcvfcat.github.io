@@ -3,4 +3,5 @@ export default interface File {
   name: string
   createdAt?: string
   children?: File[]
+  extension?: string
 }
