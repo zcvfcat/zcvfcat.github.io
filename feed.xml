@@ -7,9 +7,19 @@
       <language>ko</language>
       <managingEditor>zcvfcat@gmail.com (DAEHYUN KIM)</managingEditor>
       <webMaster>zcvfcat@gmail.com (DAEHYUN KIM)</webMaster>
-      <lastBuildDate>Mon, 28 Feb 2022 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 10 Mar 2022 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://zcvfcat.github.io/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://zcvfcat.github.io/blog/알고리즘/완전탐색/BFS</guid>
+    <title>BFS</title>
+    <link>https://zcvfcat.github.io/blog/알고리즘/완전탐색/BFS</link>
+    <description>BFS</description>
+    <pubDate>Thu, 10 Mar 2022 00:00:00 GMT</pubDate>
+    <author>zcvfcat@gmail.com (DAEHYUN KIM)</author>
+    <category>알고리즘</category><category>완전탐색</category>
+  </item>
+
   <item>
     <guid>https://zcvfcat.github.io/blog/디자인패턴/생성패턴/abstract-factory</guid>
     <title>factory</title>
