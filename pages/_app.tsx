@@ -15,6 +15,7 @@ import { ClientReload } from 'modules/ClientReload'
 
 import menu from '@/assets/menutree.json'
 import MenuTree from 'modules/MenuTree'
+import Script from 'next/script'
 
 const isDevelopment = process.env.NODE_ENV === 'development'
 const isSocket = process.env.SOCKET
@@ -31,6 +32,8 @@ export default function App({ Component, pageProps }: AppProps) {
         <MenuTree menu={menu} />
         <Component {...pageProps} />
       </LayoutWrapper>
+      {/* eslint-disable-next-line prettier/prettier */}
+      <Script data-ad-client="ca-pub-3299226720939303" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"/>
     </ThemeProvider>
   )
 }
