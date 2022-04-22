@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable @next/next/no-script-in-head */
 import '@/assets/css/tailwind.css'
 import '@/assets/css/prism.css'
 import 'katex/dist/katex.css'
@@ -25,6 +27,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <ThemeProvider attribute="class" defaultTheme={siteMetadata.theme}>
       <Head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <Script data-ad-client="ca-pub-3299226720939303" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"/>
       </Head>
       {isDevelopment && isSocket && <ClientReload />}
       <Analytics />
@@ -32,8 +35,6 @@ export default function App({ Component, pageProps }: AppProps) {
         <MenuTree menu={menu} />
         <Component {...pageProps} />
       </LayoutWrapper>
-      {/* eslint-disable-next-line prettier/prettier */}
-      <Script data-ad-client="ca-pub-3299226720939303" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"/>
     </ThemeProvider>
   )
 }
