@@ -15,7 +15,6 @@ import { ClientReload } from 'modules/ClientReload'
 
 import menu from '@/assets/menutree.json'
 import MenuTree from 'modules/MenuTree'
-import Script from 'next/script'
 
 const isDevelopment = process.env.NODE_ENV === 'development'
 const isSocket = process.env.SOCKET
@@ -25,9 +24,9 @@ export default function App({ Component, pageProps }: AppProps) {
     <ThemeProvider attribute="class" defaultTheme={siteMetadata.theme}>
       <Head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
+        {/* eslint-disable-next-line prettier/prettier */}
+        <script data-ad-client="ca-pub-3299226720939303" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"/>
       </Head>
-      {/* eslint-disable-next-line prettier/prettier */}
-      <Script data-ad-client="ca-pub-3299226720939303" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"/>
       {isDevelopment && isSocket && <ClientReload />}
       <Analytics />
       <LayoutWrapper>
